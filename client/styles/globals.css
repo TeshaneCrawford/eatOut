@@ -64,7 +64,7 @@ a {
 }
 
 .app__bg {
-  background: url('../assets/bg.png');
+  background: url('../public/bg.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -294,9 +294,9 @@ a {
   align-items: center;
 }
 
-.app__navbar-logo img {
+/* .app__navbar-logo Image {
   width: 150px;
-}
+} */
 
 .app__navbar-links {
   flex: 1;
