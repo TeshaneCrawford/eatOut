@@ -10,9 +10,9 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <Image src={images.gericht} alt="app__logo" width="120" height="30" />
-      </div>
+      <span className="app__navbar-logo">
+        <Image className="app__navbar-logo" src={images.gericht} alt="app__logo" width="" height="" />
+      </span>
       <ul className="app__navbar-links">
         <li className="p__opensans"><Link href="/"><a>Home</a></Link></li>
         <li className="p__opensans"><Link href="/about"><a>About</a></Link></li>
