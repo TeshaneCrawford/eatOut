@@ -1,7 +1,9 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import Image from 'next/image';
+import FooterOverlay from '../../FooterParts/FooterOverlay';
+import Newsletter from '../../FooterParts/Newsletter';
 
-import { FooterOverlay, Newsletter } from './FooterOverlay, Newsletter';
 import { images } from '../../../constants';
 
 const Footer = () => (
